@@ -12,6 +12,14 @@ $(document).ready(function () {
     );
     console.log("is desktop");
   }
+  $("#special-button").click(function () {
+    $([document.documentElement, document.body]).animate(
+      {
+        scrollTop: $("#reservation").offset().top,
+      },
+      1500
+    );
+  });
 });
 
 let validations = {
@@ -19,15 +27,6 @@ let validations = {
   email: false,
   message: false,
 };
-$("#special-button").click(function () {
-  console.log("click");
-  $([document.documentElement, document.body]).animate(
-    {
-      scrollTop: $("#reservation").offset().top,
-    },
-    1500
-  );
-});
 
 $("#year").text(new Date().getFullYear());
 
