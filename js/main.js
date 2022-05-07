@@ -1,3 +1,9 @@
+let validations = {
+  name: false,
+  email: false,
+  message: false,
+};
+
 $(document).ready(function () {
   $("html").css("overflow-x", "initial");
   buttonValidation();
@@ -20,12 +26,6 @@ $(document).ready(function () {
       1500
     );
   });
-
-  let validations = {
-    name: false,
-    email: false,
-    message: false,
-  };
 
   $("#year").text(new Date().getFullYear());
 
