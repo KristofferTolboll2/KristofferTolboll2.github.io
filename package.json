@@ -1,5 +1,23 @@
 {
   "dependencies": {
     "sweetalert": "^2.1.2"
-  }
+  },
+  "name": "kristoffertolboll2.github.io",
+  "description": "TITLE:  Roxy - Bootstrap 4 template built by GetTemplates.co",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KristofferTolboll2/KristofferTolboll2.github.io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KristofferTolboll2/KristofferTolboll2.github.io/issues"
+  },
+  "homepage": "https://github.com/KristofferTolboll2/KristofferTolboll2.github.io#readme"
 }
