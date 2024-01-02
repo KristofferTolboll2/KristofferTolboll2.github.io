@@ -28,6 +28,7 @@
   },
   "homepage": "https://github.com/KristofferTolboll2/KristofferTolboll2.github.io#readme",
   "devDependencies": {
-    "@types/express-session": "^1.17.5"
+    "@types/express-session": "^1.17.5",
+    "tailwindcss": "^3.3.6"
   }
 }
